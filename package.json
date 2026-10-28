@@ -1,0 +1,6 @@
+{
+  "name": "doxis-suporte",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tests/*.test.cjs", "check": "node --check app.js && node --check security.js && node --check supabase/functions/doxis-admin/handler.js && node --check supabase/functions/doxis-admin/validation.js" }
+}

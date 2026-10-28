@@ -1,0 +1,6 @@
+project_id = "doxis-suporte"
+
+[functions.doxis-admin]
+# JWT validation is performed by auth.getUser(token) in the handler, before any action.
+# This supports both legacy and asymmetric Supabase signing keys.
+verify_jwt = false
